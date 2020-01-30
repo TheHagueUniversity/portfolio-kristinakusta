@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kristine Kusta</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/portfolio.css">
+
+  </head>
+  
+      <!-- ***************  menu  **************** -->
+
+<body>
+    <main>
+
+<header>
+        <div class="content-wrap">
+        
+         <div id="aboutme">
+          <h2>Portfolio</h2>
+        </div>
+           <section class="inf">
+          <a href="portfolio.html" title="home" >Home</a>
+          <br>
+          <a href="about.html" title="about.html" >About</a>
+          <br>
+          <a href="projects.html" title="projects.html">Projects</a>
+          <br>
+          <a href=”contact.html” title=”contact.html”>Contact</a>
+        </section>
+        <section class="photos">
+            <div class="photo-about">
+               <marquee class="different2">About</marquee>
+           
+ 
+</header>
+
+ <div class="content-wrap divider">
+
+ <div class="w3-row">
+    <div class="w3-third">
+      <img src="images/msk1.jpg" alt="msk1" style="width:100%" onclick="onClick(this)" alt="Moscow | 2018">
+      <img src="images/msk2.jpg" alt="msk2" style="width:100%" onclick="onClick(this)" alt="Moscow | 2018">
+      <img src="images/msk3.jpg" style="width:100%" onclick="onClick(this)" alt="Moscow | 2018">
+    </div>
+
+    <div class="w3-third">
+      <img src="/w3images/boy.jpg" style="width:100%" onclick="onClick(this)" alt="Quiet day at the beach. Cold, but beautiful">
+      <img src="/w3images/man_bench.jpg" style="width:100%" onclick="onClick(this)" alt="Waiting for the bus in the desert">
+      <img src="/w3images/natureboy.jpg" style="width:100%" onclick="onClick(this)" alt="Nature again.. At its finest!">
+    </div>
+    
+    <div class="w3-third">
+      <img src="/w3images/girl.jpg" style="width:100%" onclick="onClick(this)" alt="Canoeing again">
+      <img src="/w3images/girl_train.jpg" style="width:100%" onclick="onClick(this)" alt="A girl, and a train passing">
+      <img src="/w3images/closegirl.jpg" style="width:100%" onclick="onClick(this)" alt="What a beautiful day!">
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>

@@ -6,10 +6,200 @@ html {
 }
 
 body {
-  color: #902750;
+  color: #000000;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   line-height: 1.5;
+}
+
+
+h1 {
+  margin-top: -50px;
+  font-size: 50px;
+  line-height: 1;
+  text-align: center;
+}
+h2 {
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+}
+
+h3{
+  font-size: 20px;
+}
+
+a{
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fe05e3;
+}
+.about-desc{
+width:49%;
+float: right;
+margin-top: 10px;
+margin-right: 100px;
+
+}
+
+.different,
+.different2 {
+  padding:15px;
+}
+
+.different {
+  background-color: #00FF00;
+}
+
+.different2 {
+  border-top: 3px solid red;
+  border-bottom: 3px solid red;
+  transform: rotateZ(90deg) translate3d(57px,3px,0);
+  transform-origin: 100% 100%
+}
+
+.about{
+  margin-top: -280px;
+
+}
+
+.content-wrap {
+  max-width: 900px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.divider > section {
+  padding: 1px 0;
+}
+.divider > section:last-of-type {
+  border-bottom: none;
+}
+
+
+.inf {
+  margin-top: 150px;
+  font-size: 23px;
+
+}
+
+#gif1 {
+  width: 1200px;
+  margin-left: -150px;
+  margin-top: -400px;
+}
+
+#gif2{
+width: 50px;
+margin-left: 1000px;
+margin-top: -500px;
+
+}
+
+img{
+	width: 300px;
+}
+
+.photo1{
+
+	right: 800px;
+	margin-left: -70px;
+	margin-top: 10px;
+
+}
+
+.photo2{
+margin-left: -150px;
+margin-top: -100px;
+
+}
+
+.projects{
+ margin-top: -500px;
+
+}
+
+
+.btext{
+  text-align: right;
+  margin-left: 250px;
+  width:50%;
+
+}
+
+#me2{
+  margin-left: 200px;
+  margin-top: -500px;
+  position: absolute;
+
+}
+
+.links{
+	text-align: center;
+}
+
+#aboutme{
+text-align: center;
+margin-left: 50px;
+margin-top: 5px;
+font-style: italic;
+color: #000000; 
+font-size: 25px;
+
+}
+.photo-about{
+  margin-left: 325px;
+  margin-top: -350px;
+  margin-top: -280px;
+}
+
+.text-about{
+
+  text-align: center;
+  margin-top: -190px;
+  margin-left: 190px;
+  margin-right: 150px;
+}
+
+#headersA{
+  font-style: italic;
+  color: #000000; 
+  font-size: 20px;
+
+}
+
+.column {
+  float: left;
+  width: 15%;
+  padding: 110px;
+}
+
+
+.column img {
+  width: 250px
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  position: relative;
+  display: none;
+}
+
+#contactabout{
+  margin-top: -150px;
 }
