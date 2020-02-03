@@ -5,7 +5,7 @@ html {
   box-sizing: inherit;
 }
 
-body {
+body{
   color: #000000;
   margin: 0;
   padding: 0;
@@ -43,7 +43,7 @@ a:hover {
 width:49%;
 float: right;
 margin-top: 10px;
-margin-right: 100px;
+margin-right: 130px;
 
 }
 
@@ -84,21 +84,8 @@ margin-right: 100px;
 
 
 .inf {
-  margin-top: 150px;
+  margin-top: 20px;
   font-size: 23px;
-
-}
-
-#gif1 {
-  width: 1200px;
-  margin-left: -150px;
-  margin-top: -400px;
-}
-
-#gif2{
-width: 50px;
-margin-left: 1000px;
-margin-top: -500px;
 
 }
 
@@ -107,37 +94,31 @@ img{
 }
 
 .photo1{
-
-	right: 800px;
+  right: 800px;
 	margin-left: -70px;
 	margin-top: 10px;
-
 }
 
 .photo2{
-margin-left: -150px;
+margin-left: -120px;
 margin-top: -100px;
-
 }
 
 .projects{
  margin-top: -500px;
-
 }
 
-
 .btext{
-  text-align: right;
-  margin-left: 250px;
+  text-align: left;
+  margin-left: 150px;
+  margin-top: -100px;
   width:50%;
-
 }
 
 #me2{
-  margin-left: 200px;
-  margin-top: -500px;
+  margin-left: 50px;
+  margin-top: -400px;
   position: absolute;
-
 }
 
 .links{
@@ -154,17 +135,18 @@ font-size: 25px;
 
 }
 .photo-about{
-  margin-left: 325px;
-  margin-top: -350px;
-  margin-top: -280px;
+display: block;
+
+margin-left: 170px;
+margin-top: -100px;
 }
 
-.text-about{
 
-  text-align: center;
-  margin-top: -190px;
-  margin-left: 190px;
-  margin-right: 150px;
+.text-about1{
+  margin-top: -200px;
+  text-align: left;
+  margin-left: 170px;
+  margin-right: 100px;
 }
 
 #headersA{
@@ -182,7 +164,7 @@ font-size: 25px;
 
 
 .column img {
-  width: 250px
+  width: 300px
 }
 
 .column img:hover {
@@ -202,4 +184,20 @@ font-size: 25px;
 
 #contactabout{
   margin-top: -150px;
+}
+
+.w3-row{
+  margin-top: -300px;
+  margin-left: 150px;
+cursor: pointer;
+
+}
+
+#contactme{
+
+  margin-left: -30px;
+}
+#contactinf{
+  text-align: center;
+  margin-top: -400px;
 }
