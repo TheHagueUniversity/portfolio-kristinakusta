@@ -43,9 +43,8 @@ a:hover {
 }
 .about-desc{
 width:49%;
-float: right;
 margin-top: 10px;
-margin-right: 130px;
+margin-left: 330px;
 
 }
 
@@ -96,33 +95,26 @@ img{
 }
 
 .photo1{
-  right: 800px;
-	margin-left: -70px;
-	margin-top: 10px;
+    margin-top: -370px;
 }
 
 .photo2{
-margin-left: -120px;
-margin-top: -100px;
-}
-
-.projects{
- margin-top: -500px;
-}
-
-.btext{
-  text-align: left;
-  margin-left: 130px;
-  margin-top: -100px;
-  width:52%;
-}
-
-#me2{
-  margin-left: 400px;
+  margin-left: 500px;
   margin-top: -500px;
 
 }
 
+.btext{
+  text-align: left;
+  margin-left: 10px;
+  margin-top: -180px;
+  width:52%;
+}
+
+.indexf{
+  margin-left: auto;
+  margin-top: -220px;
+}
 .links{
 	text-align: center;
 }
@@ -138,14 +130,15 @@ font-size: 25px;
 
 #Originally{
   transform: rotateZ(270deg);
-  margin-left: -530px;
-  display: block;
+  margin-top: -270px;
+  margin-left: 10px;
+position: absolute;
 }
 
 .photo-about{
 display: block;
 margin-left: 220px;
-margin-top: -180px;
+margin-top: -160px;
 }
 
 
@@ -163,12 +156,14 @@ margin-top: -180px;
 
 }
 
-.column {
-  float: left;
-  width: 15%;
-  padding: 110px;
+#drawing{
+  margin-left: 100px;
 }
 
+#snowboard{
+  margin-left: 500px;
+  margin-top: -400px;
+}
 
 .column img {
   width: 230px
